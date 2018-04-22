@@ -1,0 +1,36 @@
+#logo{
+  display: inline-flex;
+}
+
+
+.header{
+display: flex;
+font-weight: bold;
+font-family: verdana;
+font-size: 14px;
+width: auto;
+height: auto;
+justify-content: space-between;
+padding: 10px 10px 10px 10px;
+border-bottom-style: solid;
+border-bottom-width: thin;
+border-bottom-color: black;
+
+
+}
+
+#navbar li{
+color: black;
+display: inline-flex;
+text-decoration: underline;
+font-weight: bold;
+padding-top: 10px;
+padding-left: 10px;
+padding-right: 10px;
+}
+
+.centertext{
+padding-left: 10px;
+padding-top:10px;
+color: mediumaquamarine;
+}
