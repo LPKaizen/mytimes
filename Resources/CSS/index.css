@@ -1,9 +1,21 @@
-#logo{
+#logo {
   display: inline-flex;
 }
 
+.smallheadline {
+border:1px black solid;
+width: auto;
+margin: auto;
+color: black;
+}
 
-.header{
+.headlineformat {
+  border: 2px black solid;
+}
+
+
+
+.header {
 display: flex;
 font-weight: bold;
 font-family: verdana;
@@ -19,7 +31,7 @@ border-bottom-color: black;
 
 }
 
-#navbar li{
+#navbar li {
 color: black;
 display: inline-flex;
 text-decoration: underline;
@@ -29,7 +41,48 @@ padding-left: 10px;
 padding-right: 10px;
 }
 
-.centertext{
+.storyformat {
+  font-family: Georgia;
+  font-size: 14px;
+  color: black;
+}
+
+.main {
+  width: auto;
+}
+
+.column {
+  width: 100%;
+  height: auto;
+  border-style: solid;
+  display: inline-flex;
+  justify-content: space-between;
+
+}
+
+.large {
+  max-width: 630px;
+  border: 2px red dotted;
+  height: auto;
+
+
+}
+
+.medium {
+  max-width: 300px;
+  border: 2px red dotted;
+  height: auto;
+}
+
+
+.small {
+ max-width: 240px;
+ border: 2px red dotted;
+ height: auto;
+}
+
+
+.centertext {
 padding-left: 10px;
 padding-top:10px;
 color: mediumaquamarine;
