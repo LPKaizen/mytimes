@@ -7,40 +7,42 @@
     width: auto;
     background-repeat: no-repeat;
     height: 300px;
+
 }
 
 #cameraimage {
     background-image: url("../images/img-story-3.png");
-    width: auto;
     height: 300px;
+    width: 299px;
     background-repeat: no-repeat;
-
 }
 
 #catimage {
     background-image: url("../images/img-story-1.png");
     width: auto;
-    margin: auto;
     height: 300px;
     background-repeat: no-repeat;
+
 }
 
 #treeimage{
     background-image: url("../images/img-story-2.png");
-    width: auto;
-    margin: auto;
+    width: 299px;
     height: 300px;
     background-repeat: no-repeat;
-    word-wrap: break-word;
+
+
 }
 
 .smallheadline{
     color: white;
     width: auto;
-    margin: auto;
     font-size: 30px;
     font-family: georgia;
     font-weight: bold;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-top: 25%;
 }
 
 
@@ -56,8 +58,6 @@ padding: 10px 10px 10px 10px;
 border-bottom-style: solid;
 border-bottom-width: thin;
 border-bottom-color: black;
-
-
 }
 
 #navbar li {
@@ -68,6 +68,17 @@ font-weight: bold;
 padding-top: 10px;
 padding-left: 10px;
 padding-right: 10px;
+}
+
+.skinny {
+  max-width: 300px;
+  height: auto;
+}
+
+.dasplit {
+  display: inline-flex;
+  width: 630px;
+  justify-content: space-between;
 }
 
 .storyformat {
