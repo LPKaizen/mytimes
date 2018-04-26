@@ -39,9 +39,18 @@
     font-weight: bold;
     padding-right: 10%;
     padding-left: 10%;
-    padding-top: 0%;
+    padding-top: 15%;
     max-width: 100%;
 }
+
+.footer {
+margin: auto;
+height: auto;
+
+}
+
+
+
 
 .header {
 display: flex;
@@ -82,9 +91,7 @@ padding-right: 10px;
   border-top-width: thin;
 }
 
-.listformat {
-  padding-right:
-}
+
 
 .skinnyL {
   max-width: 300px;
@@ -145,6 +152,7 @@ padding-right: 10px;
  max-width: 240px;
  height: auto;
  padding-right: 20px;
+
 }
 
 .logofont {
