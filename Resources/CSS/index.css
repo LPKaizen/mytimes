@@ -44,12 +44,13 @@
 }
 
 .footer {
-margin: auto;
+padding-top: 20px;
 height: auto;
-
+width: 100%;
+background-color: mediumaquamarine;
+display: inline-flex;
+justify-content: space-between;
 }
-
-
 
 
 .header {
@@ -78,6 +79,16 @@ font-weight: bold;
 padding-top: 10px;
 padding-left: 10px;
 padding-right: 10px;
+}
+
+#footernav li {
+  color: black;
+  display: inline-flex;
+  text-decoration: underline;
+  padding-top: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  list-style:none;
 }
 
 #newsbites li {
