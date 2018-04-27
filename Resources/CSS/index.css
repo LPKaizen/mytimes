@@ -2,6 +2,8 @@
   display: inline-flex;
 }
 
+
+
 #mainimage {
     background-image: url("../images/img-story-main.png");
     width: 630px;
@@ -43,13 +45,15 @@
     max-width: 100%;
 }
 
+
+
 .footer {
 padding-top: 20px;
-height: auto;
+height: 300px;
 width: 100%;
 background-color: mediumaquamarine;
 display: inline-flex;
-justify-content: space-between;
+justify-content: space-around;
 }
 
 
@@ -71,8 +75,9 @@ background-color: white;
 
 }
 
+
 #navbar li {
-color: black;
+
 display: inline-flex;
 text-decoration: underline;
 font-weight: bold;
@@ -81,14 +86,16 @@ padding-left: 10px;
 padding-right: 10px;
 }
 
+
 #footernav li {
   color: black;
   display: inline-flex;
   text-decoration: underline;
-  padding-top: 10px;
+  padding-top: 0;
   padding-left: 15px;
-  padding-right: 15px;
-  list-style:none;
+  padding-right: 15px
+
+
 }
 
 #newsbites li {
@@ -158,6 +165,13 @@ padding-right: 10px;
   height: auto;
 }
 
+.footercontent {
+  display: block;
+  justify-content: space-between;
+  align-items: center;
+  font-style: bolder;
+
+}
 
 .small {
  max-width: 240px;
